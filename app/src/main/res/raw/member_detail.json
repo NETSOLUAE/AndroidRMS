@@ -1,0 +1,77 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "number": "DXB001",
+      "status": "Active",
+      "total_premium_charged": "1233023.00",
+      "installments_paid": "12",
+      "outstanding_amount": "32324.00",
+      "expiry_date": "22/05/2018",
+      "next_installment_amount": "1342.00"
+    },
+    {
+      "number": "DXB42343",
+      "status": "InActive",
+      "total_premium_charged": "1233023.00",
+      "installments_paid": "12",
+      "outstanding_amount": "32324.00",
+      "expiry_date": "22/05/2018",
+      "next_installment_amount": "1342.00"
+    },
+    {
+      "number": "DXB034",
+      "status": "Active",
+      "total_premium_charged": "1233023.00",
+      "installments_paid": "12",
+      "outstanding_amount": "32324.00",
+      "expiry_date": "22/05/2018",
+      "next_installment_amount": "1342.00"
+    },
+    {
+      "number": "DXB001",
+      "status": "Active",
+      "total_premium_charged": "1233023.00",
+      "installments_paid": "12",
+      "outstanding_amount": "32324.00",
+      "expiry_date": "22/05/2018",
+      "next_installment_amount": "1342.00"
+    },
+    {
+      "number": "DXB001",
+      "status": "Active",
+      "total_premium_charged": "1233023.00",
+      "installments_paid": "12",
+      "outstanding_amount": "32324.00",
+      "expiry_date": "22/05/2018",
+      "next_installment_amount": "1342.00"
+    },
+    {
+      "number": "DXB32432",
+      "status": "Active",
+      "total_premium_charged": "1233023.00",
+      "installments_paid": "12",
+      "outstanding_amount": "32324.00",
+      "expiry_date": "22/05/2018",
+      "next_installment_amount": "1342.00"
+    },
+    {
+      "number": "DXB234332",
+      "status": "Active",
+      "total_premium_charged": "1233023.00",
+      "installments_paid": "12",
+      "outstanding_amount": "32324.00",
+      "expiry_date": "22/05/2018",
+      "next_installment_amount": "1342.00"
+    },
+    {
+      "number": "DXB02",
+      "status": "InActive",
+      "total_premium_charged": "1233023.00",
+      "installments_paid": "12",
+      "outstanding_amount": "32324.00",
+      "expiry_date": "22/05/2018",
+      "next_installment_amount": "1342.00"
+    }
+  ]
+}

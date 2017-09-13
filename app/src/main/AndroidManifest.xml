@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rms.netsol.com.rmsystem">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:logo="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.Activity.SplashActivity"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.Activity.LoginActivity"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.MenuActivity"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.HomeActivity"
+                  android:theme="@style/AppTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".View.Activity.HomeActivitySalaryDeduction"
+                  android:theme="@style/AppTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".View.Activity.HomeActivityLines"
+                  android:theme="@style/AppTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".View.Activity.MemberDetailsActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".View.Activity.Information"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.PolicyDetailsActivity"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.ClaimStatus"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".View.Activity.PreApprovalActivity"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.PostCommentActivity"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.PolicyDetailsSalaryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.AccountSummaryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.PolicyDetailsLinesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.AccountSummaryLinesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".View.Activity.FeedBackForm"
+                  android:theme="@style/AppTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".View.Activity.RegistrationActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".View.Activity.Enquiry"
+                  android:theme="@style/AppTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".View.Activity.ContactInfo"
+                  android:theme="@style/AppTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

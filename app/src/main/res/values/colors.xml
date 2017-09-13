@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ED1941</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+
+    <color name="tabSelected">#C61233</color>
+    <color name="tabDefault">#ED1941</color>
+    <color name="black">#000000</color>
+    <color name="settled">#10783A</color>
+    <color name="approved">#f9d854</color>
+    <color name="registered">#126FFA</color>
+    <color name="cancelled">#FB0008</color>
+    <color name="phone">#0080ff</color>
+    <color name="email">#91261B</color>
+</resources>

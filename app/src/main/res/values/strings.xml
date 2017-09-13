@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">RMS</string>
+    <string name="reset_heading">Sending SMS</string>
+    <string name="reset_text">Sending security code to your registered mobile number…</string>
+    <string name="authenticating">Authenticating</string>
+    <string name="pin_reset_heading">Reseting PIN</string>
+    <string name="fetching_data">Fetching Data</string>
+    <string name="please_wait">Please Wait....</string>
+    <string name="network_availability_heading">No Internet Connection</string>
+    <string name="network_availability">We cannot detect any Internet Connection. Please check your Internet Connection and Try Again.</string>
+    <string name="phone_number_error_message">Please Enter your Registered Mobile Number</string>
+    <string name="national_id_error_message">Please Enter your Registered National ID</string>
+    <string name="pin_number_error_message">Please Enter valid PIN</string>
+    <string name="roaming_alert_message">You are connected on Roaming Network</string>
+    <string name="no_data_message">Failed to fetch Data</string>
+    <string name="no_records_available">No Records Available</string>
+    <string name="logout">Do you really want to logout?</string>
+    <string name="invalid_pin">Oops! We could not authenticate you. If you forgot your PIN, please reset to continue.</string>
+    <string name="session_timeout">Your session has been expired! Please login again.</string>
+    <string name="comments_update_heading">Dear Customer,</string>
+    <string name="comments_update_text">Your comments are successfully saved in our database. If it required a personal response, you will hear from us.</string>
+    <string name="comments_not_update_text">Oops! We could not authenticate your credentials. Please try again later.</string>
+    <string name="comments_submitting_dialog">Submitting…</string>
+    <string name="comments_reg_dialog">Confirming Registration…</string>
+    <string name="policy_dialog">Fetching…</string>
+    <string name="sms_success">Sms sent successfully!</string>
+
+    <string name="logout_menu">Logout</string>
+    <string name="notification_menu">Notification</string>
+    <string name="reset_pin">Reset PIN</string>
+
+    <string name="policy_information">This is a policy acknowledgement sample that you can use when employees need to acknowledge their receipt and understanding of a policy.
+        It is an effective way to ensure, as an employer, that you have made an effort to make sure that employees are informed of new workplace policies and expectations. When an employee is new and
+        you need him or her to get up-to-speed on all of your organization\'s policies, use the employee handbook to share the policies. This receipt works for employees to acknowledge receipt of the handbook.
+        This policy receipt acknowledgement is for occasions when you introduce a new policy or change an existing policy and need employees to know. Most frequently supplied during an informational meeting
+        or in-house training session, the policy receipt is filled out under the direction of HR staff at the end of the meeting.</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_policy">Policy Details</string>
+    <string name="nav_account">Account Summary</string>
+    <string name="nav_comments">Post Comments</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!--Vehicle Details Text -->
+    <string name="vehicle_details">Vehicle Details</string>
+    <string name="vehicle_no">Vehicle Number</string>
+    <string name="vehicle_expiry">Expiry Date</string>
+    <string name="vehicle_status">Status</string>
+    <string name="vehicle_out">Outstanding Amount</string>
+    <string name="vehicle_total">Total Premium Charged</string>
+    <string name="vehicle_next">Next Installment Amount</string>
+    <string name="vehicle_installments_paid">Installments Paid</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Notifications</item>
+        <item>Reset Password</item>
+    </string-array>
+    <string-array name="nav_item_activity_titles_rop">
+        <item>Policy Details</item>
+        <item>Account Summary</item>
+        <item>Post Comments</item>
+        <item>Notifications</item>
+        <item>Reset Pin</item>
+    </string-array>
+    <string-array name="nav_item_activity_titles_lines">
+        <item>Policy Details</item>
+        <item>Account Summary</item>
+        <item>Post Comments</item>
+        <item>Notifications</item>
+        <item>Reset Pin</item>
+    </string-array>
+</resources>

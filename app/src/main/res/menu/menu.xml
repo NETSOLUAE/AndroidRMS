@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout_menu"
+            app:showAsAction="always"/>
+        <!--<item-->
+            <!--android:id="@+id/notification"-->
+            <!--android:icon="@drawable/logout"-->
+            <!--android:title="@string/notification_menu"-->
+            <!--android:showAsAction="always" />-->
+        <!--<item-->
+            <!--android:id="@+id/resetpin"-->
+            <!--android:icon="@drawable/password"-->
+            <!--android:title="@string/reset_pin"-->
+            <!--android:showAsAction="always" />-->
+
+</menu>
