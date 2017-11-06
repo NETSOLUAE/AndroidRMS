@@ -15,4 +15,5 @@
     <color name="cancelled">#FB0008</color>
     <color name="phone">#0080ff</color>
     <color name="email">#91261B</color>
+    <color name="lightGrayTint">#f1f1f1</color>
 </resources>

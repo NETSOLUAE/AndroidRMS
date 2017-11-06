@@ -22,7 +22,6 @@
                 android:layout_weight="0.01"
                 android:text="16/MX/002"
                 android:layout_gravity="center"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"/>
             <TextView
                 android:id="@+id/preapproval_entrydate_list"
@@ -32,7 +31,6 @@
                 android:gravity="center"
                 android:layout_weight="0.01"
                 android:text="05/06/2017"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"/>
             <TextView
                 android:id="@+id/preapproval_status_list"
@@ -42,7 +40,6 @@
                 android:text="Registered"
                 android:layout_gravity="end"
                 android:textAlignment="viewEnd"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"/>
         </LinearLayout>
     </LinearLayout>

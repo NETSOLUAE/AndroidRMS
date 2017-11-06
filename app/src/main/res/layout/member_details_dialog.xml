@@ -17,15 +17,24 @@
                 android:layout_margin="12dp"
                 android:background="@drawable/customborder"
                 android:paddingBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Member Details"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:textStyle="bold"
-                    android:id="@+id/textView15" />
+                    android:textColor="@color/black"
+                    android:id="@+id/textView15"
+                    android:layout_below="@+id/textView16" />
 
                 <ScrollView
                     android:id="@+id/claim_dialog_scroll"
@@ -50,89 +59,61 @@
                             android:textStyle="bold"
                             android:layout_gravity="center"
                             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="horizontal"
-                            android:weightSum="2">
-
-                            <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
+                            android:layout_weight="0.2"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Policy No."
+                                android:layout_weight="0.6"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                            <TextView
+                                android:id="@+id/policy_ref_no_dialog"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
                                 android:layout_weight="0.3"
-                                android:gravity="center">
-                                <ImageView
-                                    android:id="@+id/relationship_dialog"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:background="@drawable/male"
-                                    android:layout_gravity="center" />
-                            </LinearLayout>
-                            <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1.7"
-                                android:orientation="vertical">
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="0.5"
-                                    android:orientation="horizontal">
-                                    <TextView
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:text="Policy No."
-                                        android:layout_weight="0.35"
-                                        android:textStyle="bold"
-                                        android:layout_gravity="center"
-                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
-                                    <TextView
-                                        android:id="@+id/policy_ref_no_dialog"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:layout_weight="0.12"
-                                        android:layout_gravity="center"
-                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
-                                </LinearLayout>
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center"
-                                    android:textSize="8sp"/>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="0.5"
-                                    android:orientation="horizontal">
-                                    <TextView
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:text="Name:"
-                                        android:textStyle="bold"
-                                        android:layout_weight="0.38"
-                                        android:layout_gravity="center"
-                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
-                                    <TextView
-                                        android:id="@+id/name_dialog"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:layout_weight="0.12"
-                                        android:layout_gravity="center"
-                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
-                                </LinearLayout>
-
-                            </LinearLayout>
-
+                                android:layout_gravity="center"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
                         </LinearLayout>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                            android:textSize="6sp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.2"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Name:"
+                                android:textStyle="bold"
+                                android:layout_weight="0.6"
+                                android:layout_gravity="top"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+                            <TextView
+                                android:id="@+id/name_dialog"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.3"
+                                android:layout_gravity="center"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textSize="6sp"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -257,7 +238,7 @@
                                 android:layout_weight="0.6"
                                 android:text="Email:"
                                 android:textStyle="bold"
-                                android:layout_gravity="center"
+                                android:layout_gravity="top"
                                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
                             <TextView
                                 android:id="@+id/email_dialog"

@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
 
     <!--<LinearLayout-->
         <!--android:layout_width="match_parent"-->
@@ -44,8 +45,6 @@
             android:layout_gravity="center"
             android:gravity="center_vertical"
             android:textStyle="normal"
-            android:text="jgjdfgldbg"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textColor="#000000"/>
     </LinearLayout>
 

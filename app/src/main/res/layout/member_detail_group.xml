@@ -23,8 +23,7 @@
             android:id="@+id/group_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            app:srcCompat="@drawable/group_icon" />
+            app:srcCompat="@drawable/male" />
 
         <TextView
             android:layout_width="match_parent"
@@ -39,16 +38,16 @@
         android:layout_height="match_parent"
         android:layout_weight="0.3"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/staff_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
             android:layout_gravity="start"
+            android:gravity="center"
             android:textAlignment="viewStart"
-            android:textStyle="normal"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:textColor="#000000"/>
+            android:textColor="#000000"
+            android:textStyle="normal" />
     </LinearLayout>
 
     <LinearLayout

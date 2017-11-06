@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_faq"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4" >
+                <LinearLayout
+                    android:id="@+id/backLayoutFaq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.23"
+                        app:srcCompat="@drawable/back" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.35"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/logo" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.08"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.23"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/back" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll">
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/relativeLayout"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:gravity="center">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/button_english"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:text="English"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:background="@color/tabDefault"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:textAllCaps="false"/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/button_arabic"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:text="العَرَبِيَّة‎‎"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_toRightOf="@+id/button_english"-->
+                <!--android:layout_toEndOf="@+id/button_english"-->
+                <!--android:textColor="@color/tabDefault"-->
+                <!--android:background="@drawable/custom_background"/>-->
+
+        <!--</RelativeLayout>-->
+        <ExpandableListView
+            android:id="@+id/expandableListViewFaq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:groupIndicator="@null"
+            android:scrollbarSize="0.67dp"
+            android:dividerHeight="0.67dp"
+            android:divider="#dcdcdc"
+            android:padding="5dp"
+            android:background="@drawable/menu_background" />
+        <!--<ExpandableListView-->
+            <!--android:id="@+id/expandableListViewContactAr"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:groupIndicator="@null"-->
+            <!--android:scrollbarSize="0.67dp"-->
+            <!--android:dividerHeight="0.67dp"-->
+            <!--android:divider="#dcdcdc"-->
+            <!--android:padding="5dp"-->
+            <!--android:background="@drawable/menu_background"-->
+            <!--android:layout_below="@+id/relativeLayout"-->
+            <!--android:visibility="gone"/>-->
+    </RelativeLayout>
+</RelativeLayout>

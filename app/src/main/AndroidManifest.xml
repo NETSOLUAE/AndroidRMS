@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rms.netsol.com.rmsystem">
+    package="rmsllcoman.com">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -17,74 +17,78 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".View.Activity.SplashActivity"
+        <activity android:name="rmsllcoman.com.Activity.SplashActivity"
                   android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.Activity.LoginActivity"
+        <activity android:name="rmsllcoman.com.Activity.LoginActivity"
                   android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.MenuActivity"
+        <activity android:name="rmsllcoman.com.Activity.MenuActivity"
                   android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.HomeActivity"
+        <activity android:name="rmsllcoman.com.Activity.HomeActivity"
                   android:theme="@style/AppTheme"
                   android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".View.Activity.HomeActivitySalaryDeduction"
+        <activity android:name="rmsllcoman.com.Activity.HomeActivitySalaryDeduction"
                   android:theme="@style/AppTheme"
                   android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".View.Activity.HomeActivityLines"
+        <activity android:name="rmsllcoman.com.Activity.HomeActivityLines"
                   android:theme="@style/AppTheme"
                   android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".View.Activity.MemberDetailsActivity"
+        <activity android:name="rmsllcoman.com.Activity.MemberDetailsActivity"
                   android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".View.Activity.Information"
+        <activity android:name="rmsllcoman.com.Activity.Information"
                   android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.PolicyDetailsActivity"
+        <activity android:name="rmsllcoman.com.Activity.PolicyDetailsActivity"
                   android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.ClaimStatus"
+        <activity android:name="rmsllcoman.com.Activity.ClaimStatus"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".View.Activity.PreApprovalActivity"
+        <activity android:name="rmsllcoman.com.Activity.PreApprovalActivity"
                   android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.PostCommentActivity"
+        <activity android:name="rmsllcoman.com.Activity.PostCommentActivity"
                   android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.PolicyDetailsSalaryActivity"
+        <activity android:name="rmsllcoman.com.Activity.PolicyDetailsSalaryActivity"
             android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.AccountSummaryActivity"
+        <activity android:name="rmsllcoman.com.Activity.AccountSummaryActivity"
             android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.PolicyDetailsLinesActivity"
+        <activity android:name="rmsllcoman.com.Activity.PolicyDetailsLinesActivity"
             android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.AccountSummaryLinesActivity"
+        <activity android:name="rmsllcoman.com.Activity.AccountSummaryLinesActivity"
             android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".View.Activity.FeedBackForm"
+        <activity android:name="rmsllcoman.com.Activity.FeedBackForm"
                   android:theme="@style/AppTheme"
                   android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".View.Activity.RegistrationActivity"
+        <activity android:name="rmsllcoman.com.Activity.RegistrationActivity"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".View.Activity.Enquiry"
+        <activity android:name="rmsllcoman.com.Activity.RemainderActivity"
                   android:theme="@style/AppTheme"
                   android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".View.Activity.ContactInfo"
+        <activity android:name="rmsllcoman.com.Activity.ContactInfo"
+                  android:theme="@style/AppTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="rmsllcoman.com.Activity.FAQActivity"
                   android:theme="@style/AppTheme"
                   android:screenOrientation="portrait">
         </activity>

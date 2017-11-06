@@ -10,27 +10,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.35"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="5sp"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="5sp"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>-->
 
         <ImageView
             android:id="@+id/child_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="start"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/child_icon" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="5sp"
-            android:textColor="#000000"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="5sp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>-->
 
     </LinearLayout>
 
@@ -74,7 +74,6 @@
             android:layout_height="match_parent"
             android:layout_gravity="end"
             android:textAlignment="viewEnd"
-            android:text="Daughter"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
         <TextView
             android:layout_width="wrap_content"

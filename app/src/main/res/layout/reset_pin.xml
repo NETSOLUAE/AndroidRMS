@@ -15,8 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:text="Reset You PIN"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/textView18"
@@ -43,43 +44,43 @@
                 android:id="@+id/headingOld"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Enter your old PIN"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                android:text="Enter your old PIN"/>
 
             <EditText
                 android:id="@+id/oldPin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number" />
+                android:textSize="14sp"
+                android:inputType="numberPassword" />
 
             <TextView
                 android:id="@+id/newPinT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Enter your new PIN"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                android:text="Enter your new PIN"/>
 
             <EditText
                 android:id="@+id/newPin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number" />
+                android:textSize="14sp"
+                android:inputType="numberPassword" />
 
             <TextView
                 android:id="@+id/confirmNewPinT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Confirm your new PIN"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+                android:text="Confirm your new PIN" />
 
             <EditText
                 android:id="@+id/confirmNewPin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number" />
+                android:textSize="14sp"
+                android:inputType="numberPassword" />
 
             <TextView
                 android:id="@+id/textView17"

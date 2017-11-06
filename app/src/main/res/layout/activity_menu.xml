@@ -30,11 +30,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.4"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/logo"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/logo" />
@@ -44,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.7"
+            android:gravity="center"
             android:orientation="vertical">
         </LinearLayout>
     </LinearLayout>
@@ -78,7 +80,7 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_weight="0.06"
+                                android:layout_weight="0.08"
                                 android:orientation="vertical">
                             </LinearLayout>
 
@@ -108,9 +110,10 @@
                                 android:id="@+id/textView2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="EB Claims"
+                                android:text="EB Clients"
+                                android:textColor="@color/black"
                                 android:gravity="center_horizontal"
-                                android:layout_gravity="top"/>
+                                android:layout_gravity="center"/>
                             </LinearLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -128,7 +131,7 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_weight="0.06"
+                                android:layout_weight="0.08"
                                 android:orientation="vertical">
                             </LinearLayout>
 
@@ -159,8 +162,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Monthly Salary \nDeduction Scheme"
+                                android:textColor="@color/black"
                                 android:gravity="center_horizontal"
-                                android:layout_gravity="top"/>
+                                android:layout_gravity="center"/>
                         </LinearLayout>
                     </LinearLayout>
             </LinearLayout>
@@ -184,7 +188,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.06"
+                        android:layout_weight="0.08"
                         android:orientation="vertical">
                     </LinearLayout>
 
@@ -215,8 +219,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Personal Lines"
+                        android:textColor="@color/black"
                         android:gravity="center_horizontal"
-                        android:layout_gravity="top"/>
+                        android:layout_gravity="center"/>
                 </LinearLayout>
             </LinearLayout>
                 <LinearLayout
@@ -234,7 +239,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_weight="0.06"
+                            android:layout_weight="0.08"
                             android:orientation="vertical">
                         </LinearLayout>
 
@@ -245,11 +250,11 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/callBack"
+                                android:id="@+id/aggregator"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                app:srcCompat="@drawable/enquiry" />
+                                app:srcCompat="@drawable/aggregator" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -264,9 +269,10 @@
                             android:id="@+id/textView10"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="top"
+                            android:layout_gravity="center"
                             android:gravity="center_horizontal"
-                            android:text="Call Back/ Enquiry" />
+                            android:text="Motor Quotes &amp; Sale"
+                            android:textColor="@color/black" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -275,6 +281,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -290,7 +297,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_weight="0.06"
+                            android:layout_weight="0.08"
                             android:orientation="vertical">
                         </LinearLayout>
 
@@ -301,11 +308,11 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/contactInfo"
+                                android:id="@+id/remainder"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                app:srcCompat="@drawable/contact_info" />
+                                app:srcCompat="@drawable/remainder" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -317,12 +324,13 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textView8"
+                            android:id="@+id/claim_status_text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="top"
+                            android:text="Reminder Service"
                             android:gravity="center_horizontal"
-                            android:text="Contact Info" />
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -340,7 +348,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_weight="0.06"
+                            android:layout_weight="0.08"
                             android:orientation="vertical">
                         </LinearLayout>
 
@@ -370,74 +378,121 @@
                             android:id="@+id/textView9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Feedback Forms"
+                            android:text="Enquiry / \n Feedback Forms"
+                            android:textColor="@color/black"
                             android:gravity="center_horizontal"
-                            android:layout_gravity="top"/>
+                            android:layout_gravity="center"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-            <!--<LinearLayout-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:layout_weight="1"-->
-                <!--android:orientation="horizontal">-->
-                <!--<LinearLayout-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="match_parent"-->
-                    <!--android:layout_weight="0.5"-->
-                    <!--android:orientation="vertical">-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
 
-                    <!--<LinearLayout-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:layout_weight="0.1"-->
-                        <!--android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"
+                        android:orientation="vertical">
 
-                        <!--<LinearLayout-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:layout_height="match_parent"-->
-                            <!--android:layout_weight="0.06"-->
-                            <!--android:orientation="vertical">-->
-                        <!--</LinearLayout>-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.08"
+                            android:orientation="vertical">
+                        </LinearLayout>
 
-                        <!--<LinearLayout-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:layout_height="match_parent"-->
-                            <!--android:layout_weight="0.01"-->
-                            <!--android:orientation="vertical">-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.01"
+                            android:orientation="vertical">
 
-                            <!--<ImageView-->
-                                <!--android:id="@+id/claim_status"-->
-                                <!--android:layout_width="wrap_content"-->
-                                <!--android:layout_height="wrap_content"-->
-                                <!--android:layout_gravity="center"-->
-                                <!--app:srcCompat="@drawable/claim_status" />-->
-                        <!--</LinearLayout>-->
+                            <ImageView
+                                android:id="@+id/contactInfo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/contact_info" />
+                        </LinearLayout>
 
-                    <!--</LinearLayout>-->
+                    </LinearLayout>
 
-                    <!--<LinearLayout-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:layout_weight="0.25"-->
-                        <!--android:orientation="horizontal">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:orientation="horizontal">
 
-                        <!--<TextView-->
-                            <!--android:id="@+id/claim_status_text"-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:layout_height="wrap_content"-->
-                            <!--android:text="Claim Details"-->
-                            <!--android:gravity="center_horizontal"-->
-                            <!--android:layout_gravity="center"/>-->
-                    <!--</LinearLayout>-->
-                <!--</LinearLayout>-->
-                <!--<LinearLayout-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="match_parent"-->
-                    <!--android:layout_weight="0.5"-->
-                    <!--android:orientation="vertical">-->
-                <!--</LinearLayout>-->
-            <!--</LinearLayout>-->
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:text="RMS Contact Info"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.08"
+                            android:orientation="vertical">
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.01"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/faq"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/faq" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/faqText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:text="FAQs \?"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

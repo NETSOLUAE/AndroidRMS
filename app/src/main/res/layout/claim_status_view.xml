@@ -22,7 +22,6 @@
                 android:layout_weight="0.01"
                 android:text="LI797915"
                 android:layout_gravity="center"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="#000000"/>
             <TextView
                 android:id="@+id/claim_regdate_list"
@@ -32,7 +31,6 @@
                 android:text="05/06/2017"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/claim_status_list"
@@ -42,7 +40,6 @@
                 android:text="Registered"
                 android:layout_gravity="end"
                 android:textAlignment="viewEnd"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="#000000" />
         </LinearLayout>
     </LinearLayout>

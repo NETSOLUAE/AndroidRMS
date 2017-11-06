@@ -11,7 +11,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:isScrollContainer="false"
-        android:weightSum="3">
+        android:weightSum="3"
+        android:visibility="gone">
         <android.support.v4.widget.SwipeRefreshLayout
             android:id="@+id/swipeView_refresh_layout_vehicle"
             android:layout_width="wrap_content"
@@ -61,8 +62,7 @@
         android:id="@+id/vehicle_view_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:visibility="gone">
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -113,7 +113,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:layout_weight="0.5">
+                android:layout_weight="0.53">
 
                 <TextView
                     android:layout_width="match_parent"

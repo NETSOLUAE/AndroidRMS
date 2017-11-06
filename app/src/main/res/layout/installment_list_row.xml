@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.012"
-                android:text="Active"
+                android:text="100.00"
                 android:gravity="right"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="#000000" />
@@ -43,7 +43,7 @@
                 android:id="@+id/intallmentPaidSatus"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="0.008"
+                android:layout_weight="0.009"
                 android:text="Active"
                 android:layout_gravity="end"
                 android:gravity="end"

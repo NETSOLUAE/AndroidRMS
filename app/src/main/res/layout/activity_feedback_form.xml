@@ -74,9 +74,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="FeedBack Form"
-                        android:padding="10dp"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+                        android:text="Enquiry / FeedBack Form"
+                        android:textColor="@color/black"
+                        android:padding="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -91,8 +91,9 @@
                         android:background="@drawable/comments_small_select"
                         android:ems="10"
                         android:hint="Your Name"
-                        android:inputType="textPersonName"
+                        android:inputType="textCapWords"
                         android:padding="10dp"
+                        android:textSize="14sp"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
                 </LinearLayout>
 
@@ -151,7 +152,9 @@
                         android:background="@drawable/comments_small_select"
                         android:ems="10"
                         android:padding="10dp"
+                        android:maxLength="12"
                         android:hint="Mobile Number"
+                        android:textSize="14sp"
                         android:inputType="phone" />
                 </LinearLayout>
 
@@ -168,7 +171,8 @@
                         android:background="@drawable/comments_small_select"
                         android:ems="10"
                         android:hint="Subject"
-                        android:inputType="textPersonName" />
+                        android:textSize="14sp"
+                        android:inputType="textCapSentences" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -186,6 +190,7 @@
                         android:padding="10dp"
                         android:hint="Description"
                         android:maxLines="7"
+                        android:textSize="14sp"
                         android:inputType="textCapSentences|textMultiLine" />
                 </LinearLayout>
 
@@ -205,7 +210,6 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:background="@drawable/submit"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:text="SUBMIT"
                         android:textColor="#ffffff" />
                 </LinearLayout>

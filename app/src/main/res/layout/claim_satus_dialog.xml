@@ -9,15 +9,25 @@
         android:layout_margin="12dp"
         android:background="@drawable/customborder"
         android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Claim Status"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
             android:layout_gravity="center"
             android:gravity="center"
-            android:textStyle="bold"
-            android:id="@+id/textView15" />
+            android:textColor="@color/black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/textView16" />
 
         <ScrollView
             android:id="@+id/claim_dialog_scroll"

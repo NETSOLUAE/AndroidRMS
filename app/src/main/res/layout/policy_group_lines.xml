@@ -23,7 +23,6 @@
             android:layout_gravity="center"
             android:gravity="center_vertical"
             android:textStyle="normal"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textColor="#000000"/>
 
         <TextView

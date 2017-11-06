@@ -8,8 +8,10 @@
     <string name="please_wait">Please Wait....</string>
     <string name="network_availability_heading">No Internet Connection</string>
     <string name="network_availability">We cannot detect any Internet Connection. Please check your Internet Connection and Try Again.</string>
-    <string name="phone_number_error_message">Please Enter your Registered Mobile Number</string>
+    <string name="phone_number_error_message">Please Enter your Registered Mobile Number/Email</string>
     <string name="national_id_error_message">Please Enter your Registered National ID</string>
+    <string name="password_error_message">Password should be more than 5 characters</string>
+    <string name="password_mismatch">Entered Password and Confirm Password does not match</string>
     <string name="pin_number_error_message">Please Enter valid PIN</string>
     <string name="roaming_alert_message">You are connected on Roaming Network</string>
     <string name="no_data_message">Failed to fetch Data</string>
@@ -24,10 +26,14 @@
     <string name="comments_reg_dialog">Confirming Registration…</string>
     <string name="policy_dialog">Fetching…</string>
     <string name="sms_success">Sms sent successfully!</string>
+    <string name="valid_mobile_number">Please enter valid mobile number with country code</string>
+    <string name="valid_email">Please enter valid email address</string>
+    <string name="all_fileds_mandatory">All fields are Mandatory</string>
 
     <string name="logout_menu">Logout</string>
     <string name="notification_menu">Notification</string>
     <string name="reset_pin">Reset PIN</string>
+    <string name="reset_password">Reset Password</string>
 
     <string name="policy_information">This is a policy acknowledgement sample that you can use when employees need to acknowledge their receipt and understanding of a policy.
         It is an effective way to ensure, as an employer, that you have made an effort to make sure that employees are informed of new workplace policies and expectations. When an employee is new and
@@ -48,7 +54,7 @@
 
     <!--Vehicle Details Text -->
     <string name="vehicle_details">Vehicle Details</string>
-    <string name="vehicle_no">Vehicle Number</string>
+    <string name="vehicle_no">Chassis Number</string>
     <string name="vehicle_expiry">Expiry Date</string>
     <string name="vehicle_status">Status</string>
     <string name="vehicle_out">Outstanding Amount</string>
@@ -82,4 +88,9 @@
         <item>Notifications</item>
         <item>Reset Pin</item>
     </string-array>
+
+    <string name="company_name">Company Name</string>
+    <string name="staff_id">Staff ID / Member ID</string>
+    <string name="policy_no">Policy Number</string>
+    <string name="policy_date">Policy Date</string>
 </resources>

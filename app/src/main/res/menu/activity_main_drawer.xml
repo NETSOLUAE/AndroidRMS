@@ -11,7 +11,7 @@
         <item
             android:id="@+id/nav_reset_pin"
             android:icon="@drawable/nav_reset"
-            android:title="@string/reset_pin" />
+            android:title="@string/reset_password" />
     </group>
 
     <item android:title="Other">

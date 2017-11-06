@@ -43,9 +43,9 @@
                 android:background="@drawable/comments_small_select"
                 android:ems="10"
                 android:hint="Your Name"
-                android:inputType="textPersonName"
-                android:padding="10dp"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+                android:inputType="textCapWords"
+                android:textSize="14sp"
+                android:padding="10dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -61,7 +61,8 @@
                 android:background="@drawable/comments_small_select"
                 android:ems="10"
                 android:hint="Subject"
-                android:inputType="textPersonName" />
+                android:textSize="14sp"
+                android:inputType="textCapSentences" />
             </LinearLayout>
 
         <LinearLayout
@@ -77,6 +78,8 @@
                 android:ems="10"
                 android:padding="10dp"
                 android:hint="Mobile Number"
+                android:textSize="14sp"
+                android:maxLength="12"
                 android:inputType="phone" />
             </LinearLayout>
 
@@ -94,6 +97,7 @@
                     android:ems="10"
                     android:padding="10dp"
                     android:hint="Comments"
+                    android:textSize="14sp"
                     android:maxLines="7"
                     android:inputType="textCapSentences|textMultiLine" />
             </LinearLayout>
@@ -115,7 +119,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/submit"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:text="SUBMIT"
                 android:textColor="#ffffff" />
             </LinearLayout>
